@@ -4,7 +4,7 @@
     let alt = 'random gen pic';
     let string = 'this string contains some <strong>HTML!!!</strong>';
     
-    import Nested from './+nested.svelte'
+    import Nested from './nested.svelte'
 </script>
 
 <h1>Hello {name.toLocaleUpperCase()}</h1>
