@@ -1,13 +1,13 @@
 <script>
 
     import Thing from "./Thing.svelte";
-    import { getRandomNumber } from "./utils";
+    // import { getRandomNumber } from "./utils";
 
-    let promise = getRandomNumber();
+    // let promise = getRandomNumber();
 
-    function handleClick2(){
-        promise = getRandomNumber();
-    }
+    // function handleClick2(){
+    //     promise = getRandomNumber();
+    // }
     let things = [
         { id: 1, name: 'apple' },
 		{ id: 2, name: 'banana' },
@@ -67,17 +67,17 @@
     <Thing name={thing.name}/>
 {/each}
 
-<button on:click={handleClick2}>
+<!-- <button on:click={handleClick2}>
     Generate random number
-</button>
+</button> -->
 
-{#await promise}
+<!-- {#await promise}
     <p>...waiting</p>
 {:then number}
     <p>the number is { number }</p>
 {:catch error}
     <p style="color: red;">{error.message}</p>
-{/await}
+{/await} -->
 
 
 <style>

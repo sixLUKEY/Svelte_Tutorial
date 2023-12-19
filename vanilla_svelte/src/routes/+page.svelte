@@ -15,6 +15,10 @@
         {
             name: 'logic',
             href: 'logic'
+        },
+        {
+            name: 'events',
+            href: 'events'
         }
     ]
 </script>
