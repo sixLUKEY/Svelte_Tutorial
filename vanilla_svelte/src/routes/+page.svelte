@@ -27,6 +27,22 @@
         {
             name: 'lifecycle',
             href: 'lifecycle'
+        },
+        {
+            name: 'stores',
+            href: 'stores'
+        },
+        {
+            name: 'readable-stores',
+            href: 'readable-stores'
+        },
+        {
+            name: 'custom-stores',
+            href: 'custom-stores'
+        },
+        {
+            name: 'store-bindings',
+            href: 'store-bindings'
         }
     ]
 </script>
