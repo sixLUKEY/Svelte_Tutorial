@@ -19,6 +19,10 @@
         {
             name: 'events',
             href: 'events'
+        },
+        {
+            name: 'bindings',
+            href: 'bindings'
         }
     ]
 </script>
