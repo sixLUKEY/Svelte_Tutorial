@@ -23,6 +23,10 @@
         {
             name: 'bindings',
             href: 'bindings'
+        },
+        {
+            name: 'lifecycle',
+            href: 'lifecycle'
         }
     ]
 </script>
