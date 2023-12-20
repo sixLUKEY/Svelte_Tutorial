@@ -1,6 +1,8 @@
 <script>
     import EventModifiers from "./EventModifiers.svelte";
     import Inner from "./Inner.svelte";
+    import Outer from "./Outer.svelte";
+    import EventForwarding from "./EventForwarding.svelte";
 
     function handleMessage( event ){
         alert( event.detail.text );
@@ -25,6 +27,10 @@
 <EventModifiers/>
 
 <Inner on:message={handleMessage}/>
+
+<Outer/>
+
+<EventForwarding/>
 
 <style>
     div {
