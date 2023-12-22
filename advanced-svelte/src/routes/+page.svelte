@@ -3,6 +3,10 @@
         {
             name: 'motion',
             href: 'motion'
+        },
+        {
+            name: 'transitions',
+            href: 'transitions'
         }
     ]
 </script>
