@@ -2,5 +2,6 @@
   
 # Svelte_Tutorial
 
-Started on 05/12
+Started on 05/12/2023
+
 </div>
