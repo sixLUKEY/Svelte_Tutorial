@@ -1,5 +1,6 @@
 <script>
-    let visible = true;
+    let visible = false;
+    let status = 'waiting...';
     import { fade } from "svelte/transition";
     import { fly } from "svelte/transition";
     import { elasticOut } from "svelte/easing";
@@ -46,6 +47,10 @@
     visible
 </label>
 
+<p>
+    status : { status }
+</p>
+
 {#if visible}
      <p transition:fade>
         Fades in and out
@@ -62,6 +67,14 @@
 	</div>
     <p transition:typewriter>
         The quick brown fox jumps over the lazy dog
+    </p>
+    <p transition:fly={{ y: 200, duration: 2000}}
+        on:introstart={() => status = 'intro started'}
+        on:outrostart={() => status = 'outro started'}
+        on:introend={() => status = 'intro ended'}
+        on:outroend={() => status = 'outro ended'}
+    >
+        Flies in and out
     </p>
 {/if}
 
