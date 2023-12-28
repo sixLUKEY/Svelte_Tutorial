@@ -7,6 +7,10 @@
         {
             name: 'transitions',
             href: 'transitions'
+        },
+        {
+            name: 'actions',
+            href: 'actions'
         }
     ]
 </script>
