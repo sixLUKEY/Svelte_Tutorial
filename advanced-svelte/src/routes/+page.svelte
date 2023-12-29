@@ -11,6 +11,10 @@
         {
             name: 'actions',
             href: 'actions'
+        },
+        {
+            name: 'advanced-bindings',
+            href: 'advanced-bindings'
         }
     ]
 </script>
