@@ -19,6 +19,10 @@
         {
             name: 'media-element-bindings',
             href: 'media-element-bindings'
+        },
+        {
+            name: 'classes-styles',
+            href: 'classes-styles'
         }
     ]
 </script>
