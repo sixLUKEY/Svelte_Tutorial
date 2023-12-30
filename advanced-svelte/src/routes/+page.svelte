@@ -23,6 +23,10 @@
         {
             name: 'classes-styles',
             href: 'classes-styles'
+        },
+        {
+            name: 'component-composition',
+            href: 'component-composition'
         }
     ]
 </script>
