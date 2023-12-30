@@ -15,6 +15,10 @@
         {
             name: 'advanced-bindings',
             href: 'advanced-bindings'
+        },
+        {
+            name: 'media-element-bindings',
+            href: 'media-element-bindings'
         }
     ]
 </script>
