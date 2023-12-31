@@ -1,27 +1,29 @@
 <script>
-    export let data;
-    export let field;
+	export let data;
+	export let field;
 
-    let search = '';
+	let search = '';
 
-    $: regex = search ? new RegExp( search, 'i' ) : null;
-    $: matches = ( item ) => regex ? regex.test( item[field] ) : true;
+	$: regex = search ? new RegExp(search, 'i') : null;
+	$: matches = (item) => (regex ? regex.test(item[field]) : true);
 </script>
 
 <div class="list">
-    <label>
-        Filter: <input bind:value={search}>
-    </label>
+	<label>
+		Filter: <input bind:value={search} />
+	</label>
 
-    <div class="header">
-        <slot name="header"/>
-    </div>
+	{#if $$slots.header}
+		<div class="header">
+			<slot name="header" />
+		</div>
+	{/if}
 
-    <div class="content">
-        {#each data.filter(matches) as item}
-             <slot {item}/>
-        {/each}
-    </div>
+	<div class="content">
+		{#each data.filter(matches) as item}
+			<slot {item} />
+		{/each}
+	</div>
 </div>
 
 <style>
