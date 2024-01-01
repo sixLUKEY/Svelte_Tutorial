@@ -27,6 +27,14 @@
         {
             name: 'component-composition',
             href: 'component-composition'
+        },
+        {
+            name: 'context-api',
+            href: 'context-api'
+        },
+        {
+            name: 'special-elements',
+            href: 'special-elements'
         }
     ]
 </script>
