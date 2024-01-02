@@ -35,6 +35,10 @@
         {
             name: 'special-elements',
             href: 'special-elements'
+        },
+        {
+            name: 'debug-tag',
+            href: 'debug-tag'
         }
     ]
 </script>
