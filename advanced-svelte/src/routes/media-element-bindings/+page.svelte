@@ -1,5 +1,5 @@
 <script>
-    import Audioplayer from "./Audioplayer.svelte";
+    import Audioplayer, { stopAll } from "./Audioplayer.svelte";
     import { tracks } from './tracks.js';
 </script>
 
@@ -7,6 +7,10 @@
     {#each tracks as track}
          <Audioplayer {...track}/>
     {/each}
+
+	<button on:click={stopAll}>
+
+	</button>
 </div>
 
 <style>
