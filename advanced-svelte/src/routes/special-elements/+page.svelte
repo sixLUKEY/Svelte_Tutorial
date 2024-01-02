@@ -8,6 +8,9 @@
 
     import SvelteElement from './SvelteElement.svelte';
 	import SvelteWindow from './SvelteWindow.svelte';
+	import SvelteDocument from './SvelteDocument.svelte';
+	import SvelteOptions from './SvelteOptions.svelte';
+	import SvelteFragment from './SvelteFragment.svelte';
 
 	const options = [
 		{ color: 'red', component: RedThing },
@@ -30,3 +33,6 @@
 
 <SvelteElement/>
 <SvelteWindow/>
+<SvelteDocument/>
+<SvelteOptions/>
+<SvelteFragment/>
