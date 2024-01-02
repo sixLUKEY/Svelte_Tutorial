@@ -6,6 +6,9 @@
 	import BlueThing from './BlueThing.svelte';
 	import GreenThing from './GreenThing.svelte';
 
+    import SvelteElement from './SvelteElement.svelte';
+	import SvelteWindow from './SvelteWindow.svelte';
+
 	const options = [
 		{ color: 'red', component: RedThing },
 		{ color: 'green', component: GreenThing },
@@ -24,3 +27,6 @@
 </select>
 
 <svelte:component this={selected.component}/>
+
+<SvelteElement/>
+<SvelteWindow/>
